@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\small
+\caption{端到端指标（$n=1145$）。Chain Acc 为 cartridge/step/solvent 三级 top-1 全对的比例。}
+\label{tab:end-to-end}
+\begin{tabular}{lrrrrrr}
+\toprule
+Model & Cart. top-1 & Chain Acc & Hit@1 & SSS & HC & GUS \\
+\midrule
+DecisionTree & 0.4760 & 0.2790 & 0.2464 & 0.4660 & 0.8855 & 55.31 \\
+RandomForest & 0.5939 & \textbf{0.5168} & 0.4468 & 0.4848 & 0.8023 & 56.97 \\
+SVM & 0.4699 & 0.3471 & 0.2809 & 0.2573 & 0.9041 & 31.05 \\
+MLP & 0.5642 & 0.4506 & 0.3960 & 0.4666 & 0.8309 & 57.39 \\
+XGBoost & 0.5965 & 0.5091 & 0.3988 & 0.4695 & 0.8084 & 55.96 \\
+LightGBM & 0.5921 & 0.4746 & 0.3787 & 0.4680 & 0.8242 & 56.20 \\
+\midrule
+Ours (balanced) & 0.5775$_{\pm 0.0048}$ & 0.4859$_{\pm 0.0033}$ & 0.4422$_{\pm 0.0043}$ & 0.4810$_{\pm 0.0008}$ & 0.9072$_{\pm 0.0022}$ & \textbf{61.66$_{\pm 0.15}$} \\
+Ours (chain-oriented) & 0.5948$_{\pm 0.0048}$ & 0.4952$_{\pm 0.0049}$ & \textbf{0.4521$_{\pm 0.0039}$} & 0.4750$_{\pm 0.0027}$ & \textbf{0.9083$_{\pm 0.0017}$} & 61.22$_{\pm 0.23}$ \\
+Ours (exact-match) & 0.5753$_{\pm 0.0032}$ & 0.4705$_{\pm 0.0056}$ & 0.4243$_{\pm 0.0043}$ & \textbf{0.4914$_{\pm 0.0011}$} & 0.8989$_{\pm 0.0059}$ & 58.52$_{\pm 0.41}$ \\
+Ours (bagging ensemble) & \textbf{0.6140} & 0.4995 & 0.4506 & 0.4751 & 0.9070 & 61.55 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}{\footnotesize 输入统一为 21 维分子描述符。我们的单模型报 4 次重复（同一数据划分、不同随机初始化）的均值与标准差；集成与传统基线是确定的单个模型，报单次结果。加粗为该列最优。 SVM 在 HC 上的高值来自退化解：它的 Cartridge F1 仅 0.059，近乎不作预测，而空预测不产生层级冲突。}
+\end{table}

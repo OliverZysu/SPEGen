@@ -1,0 +1,180 @@
+{
+  "objective": "f1",
+  "cartridge": {
+    "mode": "threshold",
+    "k_scale": 1.0,
+    "k_min": 1,
+    "k_max": 42,
+    "thr_shift": 0.0,
+    "ensure_nonempty": false,
+    "count_quantile": null,
+    "val_objective": 0.4486089325513708
+  },
+  "solvent": {
+    "mode": "threshold",
+    "k_scale": 1.0,
+    "k_min": 0,
+    "k_max": 378,
+    "thr_shift": 0.0,
+    "ensure_nonempty": false,
+    "count_quantile": null,
+    "gate_by_step": true,
+    "val_objective": 0.3960652859247844
+  },
+  "cartridge_trials": [
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 1,
+      "k_max": 42,
+      "thr_shift": -0.05,
+      "ensure_nonempty": false,
+      "count_quantile": null,
+      "objective": "f1",
+      "value": 0.40676341730519844,
+      "mean_pred_size": 9.413461538461538
+    },
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 1,
+      "k_max": 42,
+      "thr_shift": 0.0,
+      "ensure_nonempty": false,
+      "count_quantile": null,
+      "objective": "f1",
+      "value": 0.4486089325513708,
+      "mean_pred_size": 7.2325174825174825
+    },
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 1,
+      "k_max": 42,
+      "thr_shift": 0.05,
+      "ensure_nonempty": false,
+      "count_quantile": null,
+      "objective": "f1",
+      "value": 0.44412840308769963,
+      "mean_pred_size": 5.249125874125874
+    },
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 1,
+      "k_max": 42,
+      "thr_shift": 0.1,
+      "ensure_nonempty": false,
+      "count_quantile": null,
+      "objective": "f1",
+      "value": 0.42224433938740835,
+      "mean_pred_size": 3.6704545454545454
+    }
+  ],
+  "solvent_trials": [
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 0,
+      "k_max": 378,
+      "thr_shift": -0.05,
+      "ensure_nonempty": false,
+      "count_quantile": null,
+      "gate_by_step": false,
+      "objective": "f1",
+      "value": 0.333975224029597,
+      "mean_pred_size": 48.01724137931034
+    },
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 0,
+      "k_max": 378,
+      "thr_shift": -0.05,
+      "ensure_nonempty": false,
+      "count_quantile": null,
+      "gate_by_step": true,
+      "objective": "f1",
+      "value": 0.3340718035867797,
+      "mean_pred_size": 47.97030651340996
+    },
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 0,
+      "k_max": 378,
+      "thr_shift": 0.0,
+      "ensure_nonempty": false,
+      "count_quantile": null,
+      "gate_by_step": false,
+      "objective": "f1",
+      "value": 0.3959961716377879,
+      "mean_pred_size": 32.88409961685824
+    },
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 0,
+      "k_max": 378,
+      "thr_shift": 0.0,
+      "ensure_nonempty": false,
+      "count_quantile": null,
+      "gate_by_step": true,
+      "objective": "f1",
+      "value": 0.3960652859247844,
+      "mean_pred_size": 32.85153256704981
+    },
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 0,
+      "k_max": 378,
+      "thr_shift": 0.05,
+      "ensure_nonempty": false,
+      "count_quantile": null,
+      "gate_by_step": false,
+      "objective": "f1",
+      "value": 0.38597824022524735,
+      "mean_pred_size": 20.149425287356323
+    },
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 0,
+      "k_max": 378,
+      "thr_shift": 0.05,
+      "ensure_nonempty": false,
+      "count_quantile": null,
+      "gate_by_step": true,
+      "objective": "f1",
+      "value": 0.38607062399864134,
+      "mean_pred_size": 20.1360153256705
+    },
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 0,
+      "k_max": 378,
+      "thr_shift": 0.1,
+      "ensure_nonempty": false,
+      "count_quantile": null,
+      "gate_by_step": false,
+      "objective": "f1",
+      "value": 0.22631005687960598,
+      "mean_pred_size": 8.590038314176246
+    },
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 0,
+      "k_max": 378,
+      "thr_shift": 0.1,
+      "ensure_nonempty": false,
+      "count_quantile": null,
+      "gate_by_step": true,
+      "objective": "f1",
+      "value": 0.22636484687037717,
+      "mean_pred_size": 8.584291187739463
+    }
+  ]
+}

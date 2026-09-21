@@ -1,0 +1,29 @@
+{
+  "model": "LightGBM",
+  "task": "Cartridge",
+  "splits": {
+    "n_total": 11441,
+    "n_train": 9152,
+    "n_val": 1144,
+    "n_test": 1145
+  },
+  "threshold": 0.5,
+  "metrics": {
+    "micro_precision": 0.5413310724883423,
+    "micro_recall": 0.3406241664443851,
+    "micro_f1": 0.4181401440728722,
+    "exact_match_rate": 0.11528384279475982,
+    "hit_rate": 0.6262008733624455,
+    "jaccard": 0.3034100901970769,
+    "tp": 1277,
+    "fp": 1082,
+    "fn": 2472,
+    "overall": {
+      "strict_end_to_end_acc": 0.032314410480349345,
+      "scheme_similarity_score": 0.501902440858391,
+      "hierarchical_consistency_acc": 0.8398253275109171,
+      "method_hit_at_1": 0.3737991266375546,
+      "global_utility_score": 56.19784103402024
+    }
+  }
+}

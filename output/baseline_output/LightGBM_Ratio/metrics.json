@@ -1,0 +1,28 @@
+{
+  "model": "LightGBM",
+  "task": "Ratio",
+  "splits": {
+    "n_total": 11441,
+    "n_train": 9152,
+    "n_val": 1144,
+    "n_test": 1145
+  },
+  "threshold": 0.5,
+  "metrics": {
+    "n": 6258,
+    "mae": 0.1764390340957427,
+    "mse": 0.055124663496777776,
+    "rmse": 0.2347864210229752,
+    "r2": 0.37711923750527065,
+    "within_0.05": 0.2411313518696069,
+    "within_0.10": 0.4114733141578779,
+    "n_pairs_eval": 6258,
+    "overall": {
+      "strict_end_to_end_acc": 0.032314410480349345,
+      "scheme_similarity_score": 0.501902440858391,
+      "hierarchical_consistency_acc": 0.8398253275109171,
+      "method_hit_at_1": 0.3737991266375546,
+      "global_utility_score": 56.19784103402024
+    }
+  }
+}

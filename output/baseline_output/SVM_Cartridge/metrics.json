@@ -1,0 +1,29 @@
+{
+  "model": "SVM",
+  "task": "Cartridge",
+  "splits": {
+    "n_total": 11441,
+    "n_train": 9152,
+    "n_val": 1144,
+    "n_test": 1145
+  },
+  "threshold": 0.5,
+  "metrics": {
+    "micro_precision": 0.4999999999999979,
+    "micro_recall": 0.031208322219258462,
+    "micro_f1": 0.05874968616609575,
+    "exact_match_rate": 0.023580786026200874,
+    "hit_rate": 0.09694323144104804,
+    "jaccard": 0.043729036967541976,
+    "tp": 117,
+    "fp": 117,
+    "fn": 3632,
+    "overall": {
+      "strict_end_to_end_acc": 0.0026200873362445414,
+      "scheme_similarity_score": 0.3063314572551849,
+      "hierarchical_consistency_acc": 0.9126637554585153,
+      "method_hit_at_1": 0.27161572052401745,
+      "global_utility_score": 31.049128679642692
+    }
+  }
+}

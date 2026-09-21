@@ -1,0 +1,10 @@
+{
+  "model": "MLP",
+  "overall": {
+    "strict_end_to_end_acc": 0.02096069868995633,
+    "scheme_similarity_score": 0.500689038458946,
+    "hierarchical_consistency_acc": 0.8459388646288208,
+    "method_hit_at_1": 0.3851528384279476,
+    "global_utility_score": 57.385423971474815
+  }
+}

@@ -1,0 +1,111 @@
+model,metric,mean,std,n_repeats
+DecisionTree,car_f1,0.402010,,1
+DecisionTree,car_em,0.078603,,1
+DecisionTree,sol_f1,0.393319,,1
+DecisionTree,ratio_mae,0.173969,,1
+DecisionTree,ratio_w10,0.554171,,1
+DecisionTree,car_top1,0.475983,,1
+DecisionTree,chain,0.279003,,1
+DecisionTree,hit1,0.246405,,1
+DecisionTree,sss,0.465961,,1
+DecisionTree,hc,0.885523,,1
+DecisionTree,gus,55.313288,,1
+RandomForest,car_f1,0.403028,,1
+RandomForest,car_em,0.129258,,1
+RandomForest,sol_f1,0.449664,,1
+RandomForest,ratio_mae,0.152354,,1
+RandomForest,ratio_w10,0.489773,,1
+RandomForest,car_top1,0.593886,,1
+RandomForest,chain,0.516779,,1
+RandomForest,hit1,0.446788,,1
+RandomForest,sss,0.484787,,1
+RandomForest,hc,0.802301,,1
+RandomForest,gus,56.974686,,1
+SVM,car_f1,0.058750,,1
+SVM,car_em,0.023581,,1
+SVM,sol_f1,0.006870,,1
+SVM,ratio_mae,0.217360,,1
+SVM,ratio_w10,0.373442,,1
+SVM,car_top1,0.469869,,1
+SVM,chain,0.347076,,1
+SVM,hit1,0.280920,,1
+SVM,sss,0.257254,,1
+SVM,hc,0.904123,,1
+SVM,gus,31.049129,,1
+MLP,car_f1,0.417111,,1
+MLP,car_em,0.109170,,1
+MLP,sol_f1,0.456699,,1
+MLP,ratio_mae,0.161055,,1
+MLP,ratio_w10,0.490412,,1
+MLP,car_top1,0.564192,,1
+MLP,chain,0.450623,,1
+MLP,hit1,0.395973,,1
+MLP,sss,0.466565,,1
+MLP,hc,0.830872,,1
+MLP,gus,57.385424,,1
+XGBoost,car_f1,0.411459,,1
+XGBoost,car_em,0.118777,,1
+XGBoost,sol_f1,0.456342,,1
+XGBoost,ratio_mae,0.184971,,1
+XGBoost,ratio_w10,0.391499,,1
+XGBoost,car_top1,0.596507,,1
+XGBoost,chain,0.509108,,1
+XGBoost,hit1,0.398849,,1
+XGBoost,sss,0.469537,,1
+XGBoost,hc,0.808437,,1
+XGBoost,gus,55.959493,,1
+LightGBM,car_f1,0.418140,,1
+LightGBM,car_em,0.115284,,1
+LightGBM,sol_f1,0.450917,,1
+LightGBM,ratio_mae,0.176439,,1
+LightGBM,ratio_w10,0.411473,,1
+LightGBM,car_top1,0.592140,,1
+LightGBM,chain,0.474593,,1
+LightGBM,hit1,0.378715,,1
+LightGBM,sss,0.468014,,1
+LightGBM,hc,0.824161,,1
+LightGBM,gus,56.197841,,1
+Ours (balanced),car_f1,0.479927,0.007670,4
+Ours (balanced),car_em,0.015502,0.001787,4
+Ours (balanced),sol_f1,0.466007,0.000767,4
+Ours (balanced),ratio_mae,0.158143,0.002775,4
+Ours (balanced),ratio_w10,0.637344,0.004947,4
+Ours (balanced),car_top1,0.577511,0.004838,4
+Ours (balanced),chain,0.485858,0.003347,4
+Ours (balanced),hit1,0.442234,0.004254,4
+Ours (balanced),sss,0.481007,0.000775,4
+Ours (balanced),hc,0.907239,0.002246,4
+Ours (balanced),gus,61.661433,0.147551,4
+Ours (chain-oriented),car_f1,0.478110,0.004933,4
+Ours (chain-oriented),car_em,0.017904,0.002001,4
+Ours (chain-oriented),sol_f1,0.453762,0.002618,4
+Ours (chain-oriented),ratio_mae,0.157038,0.000932,4
+Ours (chain-oriented),ratio_w10,0.639541,0.002634,4
+Ours (chain-oriented),car_top1,0.594760,0.004823,4
+Ours (chain-oriented),chain,0.495206,0.004912,4
+Ours (chain-oriented),hit1,0.452061,0.003865,4
+Ours (chain-oriented),sss,0.475000,0.002710,4
+Ours (chain-oriented),hc,0.908293,0.001668,4
+Ours (chain-oriented),gus,61.220826,0.227369,4
+Ours (exact-match),car_f1,0.349035,0.014365,4
+Ours (exact-match),car_em,0.144323,0.008317,4
+Ours (exact-match),sol_f1,0.471559,0.005392,4
+Ours (exact-match),ratio_mae,0.159447,0.001876,4
+Ours (exact-match),ratio_w10,0.634148,0.003324,4
+Ours (exact-match),car_top1,0.575328,0.003231,4
+Ours (exact-match),chain,0.470518,0.005565,4
+Ours (exact-match),hit1,0.424257,0.004314,4
+Ours (exact-match),sss,0.491406,0.001089,4
+Ours (exact-match),hc,0.898945,0.005946,4
+Ours (exact-match),gus,58.522128,0.407762,4
+Ours (bagging ensemble),car_f1,0.490875,,1
+Ours (bagging ensemble),car_em,0.038428,,1
+Ours (bagging ensemble),sol_f1,0.474747,,1
+Ours (bagging ensemble),ratio_mae,0.146431,,1
+Ours (bagging ensemble),ratio_w10,0.591563,,1
+Ours (bagging ensemble),car_top1,0.613974,,1
+Ours (bagging ensemble),chain,0.499521,,1
+Ours (bagging ensemble),hit1,0.450623,,1
+Ours (bagging ensemble),sss,0.475066,,1
+Ours (bagging ensemble),hc,0.906999,,1
+Ours (bagging ensemble),gus,61.550468,,1

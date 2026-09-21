@@ -1,0 +1,10 @@
+{
+  "model": "RandomForest",
+  "overall": {
+    "strict_end_to_end_acc": 0.05851528384279476,
+    "scheme_similarity_score": 0.5178787648102182,
+    "hierarchical_consistency_acc": 0.8199126637554585,
+    "method_hit_at_1": 0.43842794759825326,
+    "global_utility_score": 56.974685576243324
+  }
+}

@@ -1,0 +1,100 @@
+样本数 11441  切分 train/val/test = 9152/1144/1145
+输入维度 21（21 维描述符，未启用官能团）
+cartridge 类别 42  步骤 5  溶剂组合词表 378
+数据划分种子 42，初始化/训练种子 408（划分不受影响）
+bootstrap 重采样：抽 9152 条（原 9152 条），覆盖 5807 个不同样本（63.5%）
+/Users/zysu/Library/Python/3.9/lib/python/site-packages/torch/utils/data/dataloader.py:666: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+[epoch   1/60] train_loss=4.9760 val_loss=4.7901 val_score=3.6207 (5s)
+[epoch   2/60] train_loss=4.6627 val_loss=4.6613 val_score=3.6442 (11s)
+[epoch   3/60] train_loss=4.5541 val_loss=4.5907 val_score=3.7966 (17s)
+[epoch   4/60] train_loss=4.4750 val_loss=4.5200 val_score=3.7220 (22s)
+[epoch   5/60] train_loss=4.4049 val_loss=4.4674 val_score=3.7643 (28s)
+[epoch   6/60] train_loss=4.3470 val_loss=4.4250 val_score=3.8038 (34s)
+[epoch   7/60] train_loss=4.2916 val_loss=4.4076 val_score=3.8657 (39s)
+[epoch   8/60] train_loss=4.2497 val_loss=4.3717 val_score=3.8410 (45s)
+[epoch   9/60] train_loss=4.2059 val_loss=4.3593 val_score=3.8713 (51s)
+[epoch  10/60] train_loss=4.1696 val_loss=4.3274 val_score=3.9172 (56s)
+[epoch  11/60] train_loss=4.1404 val_loss=4.3045 val_score=3.9026 (62s)
+[epoch  12/60] train_loss=4.1013 val_loss=4.2940 val_score=3.8988 (68s)
+[epoch  13/60] train_loss=4.0717 val_loss=4.2808 val_score=3.8969 (73s)
+[epoch  14/60] train_loss=4.0395 val_loss=4.2642 val_score=3.9552 (79s)
+[epoch  15/60] train_loss=4.0124 val_loss=4.2588 val_score=3.9823 (85s)
+[epoch  16/60] train_loss=3.9828 val_loss=4.2390 val_score=3.9667 (90s)
+[epoch  17/60] train_loss=3.9480 val_loss=4.2353 val_score=3.9541 (96s)
+[epoch  18/60] train_loss=3.9131 val_loss=4.2314 val_score=4.0084 (101s)
+[epoch  19/60] train_loss=3.8918 val_loss=4.2236 val_score=3.9904 (107s)
+[epoch  20/60] train_loss=3.8688 val_loss=4.2002 val_score=3.9698 (113s)
+[epoch  21/60] train_loss=3.8375 val_loss=4.1958 val_score=4.0057 (118s)
+[epoch  22/60] train_loss=3.8204 val_loss=4.1993 val_score=3.9520 (124s)
+[epoch  23/60] train_loss=3.7859 val_loss=4.1710 val_score=3.9615 (130s)
+[epoch  24/60] train_loss=3.7710 val_loss=4.1791 val_score=4.0459 (135s)
+[epoch  25/60] train_loss=3.7426 val_loss=4.1810 val_score=3.9951 (141s)
+[epoch  26/60] train_loss=3.7209 val_loss=4.1649 val_score=4.0678 (147s)
+[epoch  27/60] train_loss=3.7046 val_loss=4.1754 val_score=4.0576 (152s)
+[epoch  28/60] train_loss=3.6736 val_loss=4.1419 val_score=4.0601 (158s)
+[epoch  29/60] train_loss=3.6544 val_loss=4.1508 val_score=4.0708 (164s)
+[epoch  30/60] train_loss=3.6387 val_loss=4.1568 val_score=4.0445 (169s)
+[epoch  31/60] train_loss=3.6232 val_loss=4.1521 val_score=3.9858 (175s)
+[epoch  32/60] train_loss=3.5910 val_loss=4.1514 val_score=4.0155 (181s)
+[epoch  33/60] train_loss=3.5850 val_loss=4.1520 val_score=4.0230 (186s)
+[epoch  34/60] train_loss=3.5570 val_loss=4.1443 val_score=4.0307 (192s)
+[epoch  35/60] train_loss=3.5501 val_loss=4.1305 val_score=4.0311 (198s)
+[epoch  36/60] train_loss=3.5368 val_loss=4.1212 val_score=4.0890 (203s)
+[epoch  37/60] train_loss=3.5063 val_loss=4.1398 val_score=4.0211 (209s)
+[epoch  38/60] train_loss=3.4945 val_loss=4.1837 val_score=4.0220 (215s)
+[epoch  39/60] train_loss=3.4755 val_loss=4.1514 val_score=4.0603 (220s)
+[epoch  40/60] train_loss=3.4581 val_loss=4.1760 val_score=4.0645 (226s)
+[epoch  41/60] train_loss=3.4510 val_loss=4.1544 val_score=4.0258 (232s)
+[epoch  42/60] train_loss=3.4356 val_loss=4.1496 val_score=4.0338 (237s)
+[epoch  43/60] train_loss=3.4073 val_loss=4.1437 val_score=4.0470 (243s)
+[epoch  44/60] train_loss=3.3991 val_loss=4.1479 val_score=4.0269 (248s)
+[epoch  45/60] train_loss=3.3818 val_loss=4.1532 val_score=4.0570 (254s)
+[epoch  46/60] train_loss=3.3679 val_loss=4.1285 val_score=4.0143 (260s)
+[epoch  47/60] train_loss=3.3659 val_loss=4.1328 val_score=4.0731 (265s)
+[epoch  48/60] train_loss=3.3491 val_loss=4.1476 val_score=4.0905 (271s)
+[epoch  49/60] train_loss=3.3432 val_loss=4.1410 val_score=4.0219 (277s)
+[epoch  50/60] train_loss=3.3302 val_loss=4.1553 val_score=4.0483 (282s)
+[epoch  51/60] train_loss=3.3128 val_loss=4.1833 val_score=4.0724 (288s)
+[epoch  52/60] train_loss=3.3015 val_loss=4.1409 val_score=4.0671 (294s)
+[epoch  53/60] train_loss=3.2963 val_loss=4.1673 val_score=4.0266 (300s)
+[epoch  54/60] train_loss=3.2890 val_loss=4.1697 val_score=4.0875 (305s)
+[epoch  55/60] train_loss=3.2696 val_loss=4.1494 val_score=4.1206 (311s)
+[epoch  56/60] train_loss=3.2566 val_loss=4.1613 val_score=4.0774 (316s)
+[epoch  57/60] train_loss=3.2542 val_loss=4.1325 val_score=4.1056 (322s)
+[epoch  58/60] train_loss=3.2419 val_loss=4.1855 val_score=4.0880 (328s)
+[epoch  59/60] train_loss=3.2261 val_loss=4.1921 val_score=4.0773 (333s)
+[epoch  60/60] train_loss=3.2198 val_loss=4.1726 val_score=4.1082 (339s)
+最佳 checkpoint 来自 epoch 55，验证集选模分 4.1206
+per-label 阈值标定完成
+解码调优（目标=f1）:
+  cartridge -> {'mode': 'threshold', 'k_scale': 1.0, 'k_min': 1, 'k_max': 42, 'thr_shift': 0.0, 'ensure_nonempty': False, 'count_quantile': None}  目标值=0.4715
+  solvent   -> {'mode': 'threshold', 'k_scale': 1.0, 'k_min': 0, 'k_max': 378, 'thr_shift': 0.0, 'ensure_nonempty': False, 'count_quantile': None} gate=True  目标值=0.4670
+验证集（调优后）选模分 4.1723，链路正确率 0.4272
+
+=== 测试集（基数感知解码）===
+样本数 1145（有流程信息 1043，无流程信息 102）
+Hit@1 可校验子集大小 162
+
+Hit@1 旧口径（两处免检都在）      : 0.4210
+Hit@1 去掉无流程信息免检          : 0.4324
+Hit@1 仅可校验子集（推荐主指标）  : 0.7099
+Hit@1 缺 ratio 标注判失败（最严） : 0.1103
+前三段链路正确率（不看 ratio）    : 0.4775
+
+StrictAcc 旧口径 / 仅有流程信息   : 0.0026 / 0.0000
+SSS 旧口径 / 仅有流程信息         : 0.5096 / 0.4776
+HC 旧口径 / 仅有流程信息          : 0.9141 / 0.9057
+GUS                               : 60.8090
+
+Hit@1 失败原因（对全部样本计数，互斥）：
+  cartridge top-1 错     : 462
+  step top-1 错          : 3
+  solvent top-1 错       : 151
+  ratio 超差             : 47
+  ratio 无标注(旧口径免检): 336
+  无流程信息(旧口径免检)  : 31
+
+预测集合大小： {'cartridge_pred_mean': 6.192139737991266, 'cartridge_true_mean': 3.274235725402832, 'solvent_pred_mean': 24.37104506232023, 'solvent_true_mean': 15.235857963562012}
+
+全部结果已写入 output/improve21/s7_bagC2t08_init408

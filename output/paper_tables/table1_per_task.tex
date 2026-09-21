@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\small
+\caption{各子任务上的测试集表现（$n=1145$）。}
+\label{tab:per-task}
+\begin{tabular}{lrrrrr}
+\toprule
+Model & Cart. F1 & Cart. EM & Solv. F1 & Ratio MAE & Ratio@0.10 \\
+\midrule
+DecisionTree & 0.4020 & 0.0786 & 0.3933 & 0.1740 & 0.5542 \\
+RandomForest & 0.4030 & 0.1293 & 0.4497 & 0.1524 & 0.4898 \\
+SVM & 0.0587 & 0.0236 & 0.0069 & 0.2174 & 0.3734 \\
+MLP & 0.4171 & 0.1092 & 0.4567 & 0.1611 & 0.4904 \\
+XGBoost & 0.4115 & 0.1188 & 0.4563 & 0.1850 & 0.3915 \\
+LightGBM & 0.4181 & 0.1153 & 0.4509 & 0.1764 & 0.4115 \\
+\midrule
+Ours (balanced) & 0.4799$_{\pm 0.0077}$ & 0.0155$_{\pm 0.0018}$ & 0.4660$_{\pm 0.0008}$ & 0.1581$_{\pm 0.0028}$ & 0.6373$_{\pm 0.0049}$ \\
+Ours (chain-oriented) & 0.4781$_{\pm 0.0049}$ & 0.0179$_{\pm 0.0020}$ & 0.4538$_{\pm 0.0026}$ & 0.1570$_{\pm 0.0009}$ & \textbf{0.6395$_{\pm 0.0026}$} \\
+Ours (exact-match) & 0.3490$_{\pm 0.0144}$ & \textbf{0.1443$_{\pm 0.0083}$} & 0.4716$_{\pm 0.0054}$ & 0.1594$_{\pm 0.0019}$ & 0.6341$_{\pm 0.0033}$ \\
+Ours (bagging ensemble) & \textbf{0.4909} & 0.0384 & \textbf{0.4747} & \textbf{0.1464} & 0.5916 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}{\footnotesize 输入统一为 21 维分子描述符。我们的单模型报 4 次重复（同一数据划分、不同随机初始化）的均值与标准差；集成与传统基线是确定的单个模型，报单次结果。加粗为该列最优。}
+\end{table}

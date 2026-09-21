@@ -1,0 +1,31 @@
+{
+  "model": "SVM",
+  "task": "Solvent",
+  "splits": {
+    "n_total": 11441,
+    "n_train": 9152,
+    "n_val": 1144,
+    "n_test": 1145
+  },
+  "threshold": 0.5,
+  "metrics": {
+    "micro_precision": 0.003490054449267199,
+    "micro_recall": 0.2187401673903467,
+    "micro_f1": 0.006870488524118574,
+    "exact_match_rate": 0.0,
+    "hit_rate": 0.9242569511025887,
+    "jaccard": 0.003436952174261274,
+    "tp": 3476,
+    "fp": 992497,
+    "fn": 12415,
+    "overall": {
+      "strict_end_to_end_acc": 0.0026200873362445414,
+      "scheme_similarity_score": 0.3063314572551849,
+      "hierarchical_consistency_acc": 0.9126637554585153,
+      "method_hit_at_1": 0.27161572052401745,
+      "global_utility_score": 31.049128679642692
+    }
+  },
+  "n_eval_samples": 1043,
+  "n_labels": 1890
+}

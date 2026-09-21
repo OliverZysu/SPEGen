@@ -1,0 +1,10 @@
+{
+  "model": "DecisionTree",
+  "overall": {
+    "strict_end_to_end_acc": 0.043668122270742356,
+    "scheme_similarity_score": 0.4992303648257358,
+    "hierarchical_consistency_acc": 0.8957205240174672,
+    "method_hit_at_1": 0.2410480349344978,
+    "global_utility_score": 55.31328836017146
+  }
+}

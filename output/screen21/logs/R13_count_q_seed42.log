@@ -1,0 +1,98 @@
+样本数 11441  切分 train/val/test = 9152/1144/1145
+输入维度 21（21 维描述符，未启用官能团）
+cartridge 类别 42  步骤 5  溶剂组合词表 378
+/Users/zysu/Library/Python/3.9/lib/python/site-packages/torch/utils/data/dataloader.py:666: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+[epoch   1/60] train_loss=2.7103 val_loss=2.5706 val_score=3.3925 (2s)
+[epoch   2/60] train_loss=2.5541 val_loss=2.5461 val_score=3.3900 (4s)
+[epoch   3/60] train_loss=2.5304 val_loss=2.5167 val_score=3.4480 (6s)
+[epoch   4/60] train_loss=2.5073 val_loss=2.4925 val_score=3.5607 (8s)
+[epoch   5/60] train_loss=2.4738 val_loss=2.4526 val_score=3.5136 (11s)
+[epoch   6/60] train_loss=2.4455 val_loss=2.4257 val_score=3.5694 (13s)
+[epoch   7/60] train_loss=2.4267 val_loss=2.4195 val_score=3.5158 (15s)
+[epoch   8/60] train_loss=2.4131 val_loss=2.4060 val_score=3.5797 (17s)
+[epoch   9/60] train_loss=2.4007 val_loss=2.3957 val_score=3.6122 (19s)
+[epoch  10/60] train_loss=2.3912 val_loss=2.3983 val_score=3.5636 (22s)
+[epoch  11/60] train_loss=2.3832 val_loss=2.3912 val_score=3.5553 (24s)
+[epoch  12/60] train_loss=2.3729 val_loss=2.3812 val_score=3.6183 (26s)
+[epoch  13/60] train_loss=2.3605 val_loss=2.3723 val_score=3.6296 (28s)
+[epoch  14/60] train_loss=2.3576 val_loss=2.3792 val_score=3.6315 (30s)
+[epoch  15/60] train_loss=2.3486 val_loss=2.3761 val_score=3.5987 (32s)
+[epoch  16/60] train_loss=2.3373 val_loss=2.3711 val_score=3.6295 (34s)
+[epoch  17/60] train_loss=2.3382 val_loss=2.3618 val_score=3.6302 (37s)
+[epoch  18/60] train_loss=2.3259 val_loss=2.3575 val_score=3.6733 (39s)
+[epoch  19/60] train_loss=2.3243 val_loss=2.3550 val_score=3.6250 (41s)
+[epoch  20/60] train_loss=2.3149 val_loss=2.3546 val_score=3.7335 (43s)
+[epoch  21/60] train_loss=2.3127 val_loss=2.3482 val_score=3.6581 (46s)
+[epoch  22/60] train_loss=2.3032 val_loss=2.3447 val_score=3.7266 (48s)
+[epoch  23/60] train_loss=2.2964 val_loss=2.3531 val_score=3.6790 (50s)
+[epoch  24/60] train_loss=2.2929 val_loss=2.3419 val_score=3.7118 (52s)
+[epoch  25/60] train_loss=2.2863 val_loss=2.3442 val_score=3.7676 (54s)
+[epoch  26/60] train_loss=2.2814 val_loss=2.3511 val_score=3.7121 (57s)
+[epoch  27/60] train_loss=2.2759 val_loss=2.3407 val_score=3.7210 (59s)
+[epoch  28/60] train_loss=2.2774 val_loss=2.3351 val_score=3.6776 (61s)
+[epoch  29/60] train_loss=2.2666 val_loss=2.3299 val_score=3.7714 (63s)
+[epoch  30/60] train_loss=2.2635 val_loss=2.3482 val_score=3.7660 (66s)
+[epoch  31/60] train_loss=2.2567 val_loss=2.3230 val_score=3.7912 (68s)
+[epoch  32/60] train_loss=2.2486 val_loss=2.3221 val_score=3.7487 (70s)
+[epoch  33/60] train_loss=2.2473 val_loss=2.3291 val_score=3.7446 (73s)
+[epoch  34/60] train_loss=2.2408 val_loss=2.3449 val_score=3.7236 (75s)
+[epoch  35/60] train_loss=2.2385 val_loss=2.3276 val_score=3.7893 (77s)
+[epoch  36/60] train_loss=2.2358 val_loss=2.3253 val_score=3.8169 (80s)
+[epoch  37/60] train_loss=2.2261 val_loss=2.3273 val_score=3.6576 (82s)
+[epoch  38/60] train_loss=2.2282 val_loss=2.3237 val_score=3.7563 (84s)
+[epoch  39/60] train_loss=2.2248 val_loss=2.3289 val_score=3.8374 (86s)
+[epoch  40/60] train_loss=2.2188 val_loss=2.3264 val_score=3.7622 (89s)
+[epoch  41/60] train_loss=2.2120 val_loss=2.3159 val_score=3.7261 (91s)
+[epoch  42/60] train_loss=2.2161 val_loss=2.3278 val_score=3.7350 (94s)
+[epoch  43/60] train_loss=2.2100 val_loss=2.3161 val_score=3.8022 (96s)
+[epoch  44/60] train_loss=2.2035 val_loss=2.3190 val_score=3.7569 (98s)
+[epoch  45/60] train_loss=2.1972 val_loss=2.3267 val_score=3.7787 (100s)
+[epoch  46/60] train_loss=2.1942 val_loss=2.3198 val_score=3.7773 (102s)
+[epoch  47/60] train_loss=2.1857 val_loss=2.3355 val_score=3.8049 (105s)
+[epoch  48/60] train_loss=2.1871 val_loss=2.3230 val_score=3.8467 (107s)
+[epoch  49/60] train_loss=2.1857 val_loss=2.3152 val_score=3.8119 (109s)
+[epoch  50/60] train_loss=2.1820 val_loss=2.3160 val_score=3.7890 (111s)
+[epoch  51/60] train_loss=2.1797 val_loss=2.3145 val_score=3.8495 (113s)
+[epoch  52/60] train_loss=2.1726 val_loss=2.3192 val_score=3.8335 (116s)
+[epoch  53/60] train_loss=2.1663 val_loss=2.3094 val_score=3.8208 (118s)
+[epoch  54/60] train_loss=2.1632 val_loss=2.3190 val_score=3.8186 (120s)
+[epoch  55/60] train_loss=2.1627 val_loss=2.3135 val_score=3.8367 (122s)
+[epoch  56/60] train_loss=2.1550 val_loss=2.3132 val_score=3.8607 (124s)
+[epoch  57/60] train_loss=2.1506 val_loss=2.3198 val_score=3.8443 (126s)
+[epoch  58/60] train_loss=2.1501 val_loss=2.3282 val_score=3.8777 (129s)
+[epoch  59/60] train_loss=2.1472 val_loss=2.2930 val_score=3.8565 (131s)
+[epoch  60/60] train_loss=2.1438 val_loss=2.3050 val_score=3.7639 (134s)
+最佳 checkpoint 来自 epoch 58，验证集选模分 3.8777
+per-label 阈值标定完成
+解码调优（目标=em_jaccard）:
+  cartridge -> {'mode': 'cardinality', 'k_scale': 1.0, 'k_min': 1, 'k_max': 42, 'thr_shift': 0.0, 'ensure_nonempty': False, 'count_quantile': 0.3}  目标值=0.1918
+  solvent   -> {'mode': 'clamp', 'k_scale': 1.0, 'k_min': 0, 'k_max': 378, 'thr_shift': 0.0, 'ensure_nonempty': False, 'count_quantile': 0.5} gate=True  目标值=0.1665
+验证集（调优后）选模分 4.0009，链路正确率 0.4100
+
+=== 测试集（基数感知解码）===
+样本数 1145（有流程信息 1043，无流程信息 102）
+Hit@1 可校验子集大小 111
+
+Hit@1 旧口径（两处免检都在）      : 0.3424
+Hit@1 去掉无流程信息免检          : 0.3509
+Hit@1 仅可校验子集（推荐主指标）  : 0.4144
+Hit@1 缺 ratio 标注判失败（最严） : 0.0441
+前三段链路正确率（不看 ratio）    : 0.4132
+
+StrictAcc 旧口径 / 仅有流程信息   : 0.0157 / 0.0000
+SSS 旧口径 / 仅有流程信息         : 0.4874 / 0.4520
+HC 旧口径 / 仅有流程信息          : 0.9076 / 0.8986
+GUS                               : 54.3308
+
+Hit@1 失败原因（对全部样本计数，互斥）：
+  cartridge top-1 错     : 555
+  step top-1 错          : 4
+  solvent top-1 错       : 129
+  ratio 超差             : 65
+  ratio 无标注(旧口径免检): 320
+  无流程信息(旧口径免检)  : 26
+
+预测集合大小： {'cartridge_pred_mean': 1.285589519650655, 'cartridge_true_mean': 3.274235725402832, 'solvent_pred_mean': 9.645254074784276, 'solvent_true_mean': 15.235857963562012}
+
+全部结果已写入 output/screen21/R13_count_q_seed42

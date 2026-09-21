@@ -1,0 +1,28 @@
+{
+  "model": "RandomForest",
+  "task": "Ratio",
+  "splits": {
+    "n_total": 11441,
+    "n_train": 9152,
+    "n_val": 1144,
+    "n_test": 1145
+  },
+  "threshold": 0.5,
+  "metrics": {
+    "n": 6258,
+    "mae": 0.15235402674333962,
+    "mse": 0.046519378925224834,
+    "rmse": 0.2156835156548243,
+    "r2": 0.47435459234288047,
+    "within_0.05": 0.3247043783956536,
+    "within_0.10": 0.4897730904442314,
+    "n_pairs_eval": 6258,
+    "overall": {
+      "strict_end_to_end_acc": 0.05851528384279476,
+      "scheme_similarity_score": 0.5178787648102182,
+      "hierarchical_consistency_acc": 0.8199126637554585,
+      "method_hit_at_1": 0.43842794759825326,
+      "global_utility_score": 56.974685576243324
+    }
+  }
+}

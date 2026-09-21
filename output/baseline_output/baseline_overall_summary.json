@@ -1,0 +1,44 @@
+{
+  "DecisionTree": {
+    "strict_end_to_end_acc": 0.043668122270742356,
+    "scheme_similarity_score": 0.4992303648257358,
+    "hierarchical_consistency_acc": 0.8957205240174672,
+    "method_hit_at_1": 0.2410480349344978,
+    "global_utility_score": 55.31328836017146
+  },
+  "RandomForest": {
+    "strict_end_to_end_acc": 0.05851528384279476,
+    "scheme_similarity_score": 0.5178787648102182,
+    "hierarchical_consistency_acc": 0.8199126637554585,
+    "method_hit_at_1": 0.43842794759825326,
+    "global_utility_score": 56.974685576243324
+  },
+  "SVM": {
+    "strict_end_to_end_acc": 0.0026200873362445414,
+    "scheme_similarity_score": 0.3063314572551849,
+    "hierarchical_consistency_acc": 0.9126637554585153,
+    "method_hit_at_1": 0.27161572052401745,
+    "global_utility_score": 31.049128679642692
+  },
+  "XGBoost": {
+    "strict_end_to_end_acc": 0.029694323144104803,
+    "scheme_similarity_score": 0.5037282995161264,
+    "hierarchical_consistency_acc": 0.8255021834061135,
+    "method_hit_at_1": 0.3930131004366812,
+    "global_utility_score": 55.95949266551465
+  },
+  "LightGBM": {
+    "strict_end_to_end_acc": 0.032314410480349345,
+    "scheme_similarity_score": 0.501902440858391,
+    "hierarchical_consistency_acc": 0.8398253275109171,
+    "method_hit_at_1": 0.3737991266375546,
+    "global_utility_score": 56.19784103402024
+  },
+  "MLP": {
+    "strict_end_to_end_acc": 0.02096069868995633,
+    "scheme_similarity_score": 0.500689038458946,
+    "hierarchical_consistency_acc": 0.8459388646288208,
+    "method_hit_at_1": 0.3851528384279476,
+    "global_utility_score": 57.385423971474815
+  }
+}

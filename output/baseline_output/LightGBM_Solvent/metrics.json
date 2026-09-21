@@ -1,0 +1,31 @@
+{
+  "model": "LightGBM",
+  "task": "Solvent",
+  "splits": {
+    "n_total": 11441,
+    "n_train": 9152,
+    "n_val": 1144,
+    "n_test": 1145
+  },
+  "threshold": 0.5,
+  "metrics": {
+    "micro_precision": 0.5754053526079311,
+    "micro_recall": 0.3707129821911774,
+    "micro_f1": 0.4509166060694074,
+    "exact_match_rate": 0.05081495685522531,
+    "hit_rate": 0.9683604985618408,
+    "jaccard": 0.36651640215225667,
+    "tp": 5891,
+    "fp": 4347,
+    "fn": 10000,
+    "overall": {
+      "strict_end_to_end_acc": 0.032314410480349345,
+      "scheme_similarity_score": 0.501902440858391,
+      "hierarchical_consistency_acc": 0.8398253275109171,
+      "method_hit_at_1": 0.3737991266375546,
+      "global_utility_score": 56.19784103402024
+    }
+  },
+  "n_eval_samples": 1043,
+  "n_labels": 1890
+}

@@ -1,0 +1,31 @@
+{
+  "model": "RandomForest",
+  "task": "Solvent",
+  "splits": {
+    "n_total": 11441,
+    "n_train": 9152,
+    "n_val": 1144,
+    "n_test": 1145
+  },
+  "threshold": 0.5,
+  "metrics": {
+    "micro_precision": 0.6119176598049836,
+    "micro_recall": 0.35542130765842295,
+    "micro_f1": 0.44966362803982013,
+    "exact_match_rate": 0.06711409395973154,
+    "hit_rate": 0.9635666347075743,
+    "jaccard": 0.3791817797804109,
+    "tp": 5648,
+    "fp": 3582,
+    "fn": 10243,
+    "overall": {
+      "strict_end_to_end_acc": 0.05851528384279476,
+      "scheme_similarity_score": 0.5178787648102182,
+      "hierarchical_consistency_acc": 0.8199126637554585,
+      "method_hit_at_1": 0.43842794759825326,
+      "global_utility_score": 56.974685576243324
+    }
+  },
+  "n_eval_samples": 1043,
+  "n_labels": 1890
+}

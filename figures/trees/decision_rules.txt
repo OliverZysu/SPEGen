@@ -1,0 +1,54 @@
+Cartridge class (n = 2,924, balanced accuracy 0.307)
+========================================================================
+
+IF logP <= 4.56 AND HB donors <= 0.50 AND HB acceptors <= 2.50
+   THEN Silica   [n = 288, share = 18.1%, enrichment = 1.9x]
+
+IF logP <= 4.56 AND HB donors <= 0.50 AND NOT (HB acceptors <= 2.50)
+   THEN WAX, PSA, DEA   [n = 189, share = 6.9%, enrichment = 2.6x]
+
+IF logP <= 4.56 AND NOT (HB donors <= 0.50) AND Fsp3 <= 0.97
+   THEN MAX, MCX, AX, CX, Screen-A/C   [n = 1761, share = 13.6%, enrichment = 1.3x]
+
+IF logP <= 4.56 AND NOT (HB donors <= 0.50) AND NOT (Fsp3 <= 0.97)
+   THEN WAX, PSA, DEA   [n = 99, share = 12.1%, enrichment = 4.5x]
+
+IF NOT (logP <= 4.56) AND Complexity <= 374 AND Exact mass <= 269
+   THEN Silica   [n = 103, share = 48.5%, enrichment = 5.1x]
+
+IF NOT (logP <= 4.56) AND Complexity <= 374 AND NOT (Exact mass <= 269)
+   THEN Silica   [n = 140, share = 33.6%, enrichment = 3.5x]
+
+IF NOT (logP <= 4.56) AND NOT (Complexity <= 374) AND logP <= 6.75
+   THEN PEP / HRP / DVB   [n = 234, share = 14.5%, enrichment = 1.6x]
+
+IF NOT (logP <= 4.56) AND NOT (Complexity <= 374) AND NOT (logP <= 6.75)
+   THEN Silica   [n = 110, share = 50.0%, enrichment = 5.2x]
+
+
+Elution solvent (n = 2,868, balanced accuracy 0.300)
+========================================================================
+
+IF Complexity <= 144 AND Rotatable bonds <= 2.50 AND Kappa-2 <= 2.35
+   THEN dichloromethane   [n = 91, share = 42.9%, enrichment = 5.0x]
+
+IF Complexity <= 144 AND Rotatable bonds <= 2.50 AND NOT (Kappa-2 <= 2.35)
+   THEN dichloromethane   [n = 138, share = 23.9%, enrichment = 2.8x]
+
+IF Complexity <= 144 AND NOT (Rotatable bonds <= 2.50) AND Monoisotopic wt. <= 150
+   THEN dichloromethane   [n = 82, share = 58.5%, enrichment = 6.8x]
+
+IF Complexity <= 144 AND NOT (Rotatable bonds <= 2.50) AND NOT (Monoisotopic wt. <= 150)
+   THEN dichloromethane   [n = 76, share = 42.1%, enrichment = 4.9x]
+
+IF NOT (Complexity <= 144) AND logP <= 1.71 AND TPSA <= 99.8
+   THEN methanol+water   [n = 358, share = 10.9%, enrichment = 1.6x]
+
+IF NOT (Complexity <= 144) AND logP <= 1.71 AND NOT (TPSA <= 99.8)
+   THEN acetonitrile+water   [n = 563, share = 17.6%, enrichment = 2.8x]
+
+IF NOT (Complexity <= 144) AND NOT (logP <= 1.71) AND Complexity <= 168
+   THEN ethyl acetate   [n = 75, share = 30.7%, enrichment = 7.3x]
+
+IF NOT (Complexity <= 144) AND NOT (logP <= 1.71) AND NOT (Complexity <= 168)
+   THEN acetonitrile   [n = 1485, share = 11.2%, enrichment = 1.2x]

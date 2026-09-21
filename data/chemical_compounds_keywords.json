@@ -1,0 +1,225 @@
+{
+  "water": [
+    "aqueous",
+    "h2o",
+    "h₂o",
+    "water"
+  ],
+  "acetic acid": [
+    "acetic",
+    "ch3cooh",
+    "hac"
+  ],
+  "phosphate": [
+    "phosphate"
+  ],
+  "methanol": [
+    "ch3oh",
+    "meoh",
+    "methanol"
+  ],
+  "acetonitrile": [
+    "acetonitrile",
+    "acn",
+    "ch3cn",
+    "mecn"
+  ],
+  "formic acid": [
+    "fa",
+    "formic",
+    "hcooh"
+  ],
+  "ethanol": [
+    "c2h5oh",
+    "ethanol",
+    "etoh",
+    "ethyl alcohol"
+  ],
+  "phosphoric acid": [
+    "h3po4",
+    "phosphoric"
+  ],
+  "ammonium": [
+    "ammonium",
+    "nh4"
+  ],
+  "ammonium acetate": [
+    "ammonium acetate",
+    "nh4ac",
+    "nh4oac"
+  ],
+  "hexane": [
+    "hex",
+    "hexane",
+    "n-hex",
+    "n-hexane"
+  ],
+  "ammonia": [
+    "nh3"
+  ],
+  "sodium chloride": [
+    "nacl",
+    "sodium chloride"
+  ],
+  "trifluoroacetic acid": [
+    "tfa",
+    "trifluoroacetic"
+  ],
+  "ammonium hydroxide": [
+    "ammonium hydroxide",
+    "nh4oh"
+  ],
+  "potassium phosphate": [
+    "k2hpo4",
+    "kh2po4",
+    "potassium phosphate"
+  ],
+  "sodium hydroxide": [
+    "hydroxide",
+    "naoh"
+  ],
+  "ethyl acetate": [
+    "ethyl acetate"
+  ],
+  "ammonium formate": [
+    "ammonium formate",
+    "formate"
+  ],
+  "hydrochloric acid": [
+    "hcl",
+    "hydrochloric"
+  ],
+  "cyclohexane": [
+    "cyclohexane"
+  ],
+  "sodium acetate": [
+    "ch3coona",
+    "naac",
+    "sodium acetate"
+  ],
+  "propanol": [
+    "1-propanol",
+    "n-propanol",
+    "propanol"
+  ],
+  "nitric acid": [
+    "hno3",
+    "nitric"
+  ],
+  "isopropanol": [
+    "2-propanol",
+    "ipa",
+    "isopropanol",
+    "isopropyl alcohol"
+  ],
+  "oxalic acid": [
+    "oxalic"
+  ],
+  "acetone": [
+    "acetone"
+  ],
+  "EDTA": [
+    "edta",
+    "na2edta"
+  ],
+  "sulfuric acid": [
+    "h2so4",
+    "h₂so₄",
+    "sulfuric"
+  ],
+  "sodium phosphate": [
+    "na2hpo4",
+    "nah2po4",
+    "sodium phosphate"
+  ],
+  "MTBE": [
+    "methyl tert-butyl ether",
+    "mtbe",
+    "methyl t-butyl ether",
+    "methyl tertiary butyl ether",
+    "tert-butyl methyl ether"
+  ],
+  "dichloromethane": [
+    "ch2cl2",
+    "dcm",
+    "dichloromethane",
+    "methylene chloride"
+  ],
+  "DMSO": [
+    "dimethyl sulfoxide",
+    "dmso"
+  ],
+  "toluene": [
+    "methylbenzene",
+    "toluene"
+  ],
+  "tetrahydrofuran": [
+    "tetrahydrofuran",
+    "thf"
+  ],
+  "chloroform": [
+    "chcl3",
+    "chloroform"
+  ],
+  "citric acid": [
+    "citric"
+  ],
+  "potassium chloride": [
+    "kcl"
+  ],
+  "butanol": [
+    "butanol",
+    "n-butanol"
+  ],
+  "perchloric acid": [
+    "hclo4",
+    "perchloric"
+  ],
+  "potassium hydroxide": [
+    "koh"
+  ],
+  "DMF": [
+    "dimethylformamide",
+    "dmf"
+  ],
+  "benzene": [
+    "benzene"
+  ],
+  "diethyl ether": [
+    "diethyl ether",
+    "ethyl ether"
+  ],
+  "petroleum ether": [
+    "petroleum ether",
+    "pet ether"
+  ],
+  "methyl acetate": [
+    "methyl acetate"
+  ],
+  "methyl chloride": [
+    "methyl chloride",
+    "chloromethane"
+  ],
+  "butyl acetate": [
+    "butyl acetate",
+    "n-butyl acetate"
+  ],
+  "butyl chloride": [
+    "butyl chloride",
+    "n-butyl chloride"
+  ],
+  "propyl acetate": [
+    "propyl acetate",
+    "n-propyl acetate"
+  ],
+  "pyridine": [
+    "pyridine"
+  ],
+  "heptane": [
+    "heptane",
+    "n-heptane"
+  ],
+  "light petroleum": [
+    "light petroleum"
+  ]
+}

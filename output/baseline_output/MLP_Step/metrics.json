@@ -1,0 +1,30 @@
+{
+  "model": "MLP",
+  "task": "Step",
+  "splits": {
+    "n_total": 11441,
+    "n_train": 9152,
+    "n_val": 1144,
+    "n_test": 1145
+  },
+  "threshold": 0.5,
+  "metrics": {
+    "micro_precision": 0.9217110573042775,
+    "micro_recall": 0.9688229056203603,
+    "micro_f1": 0.9446799710469616,
+    "exact_match_rate": 0.5992329817833174,
+    "hit_rate": 1.0,
+    "jaccard": 0.8955896452540748,
+    "tp": 4568,
+    "fp": 388,
+    "fn": 147,
+    "overall": {
+      "strict_end_to_end_acc": 0.02096069868995633,
+      "scheme_similarity_score": 0.500689038458946,
+      "hierarchical_consistency_acc": 0.8459388646288208,
+      "method_hit_at_1": 0.3851528384279476,
+      "global_utility_score": 57.385423971474815
+    }
+  },
+  "n_eval_samples": 1043
+}

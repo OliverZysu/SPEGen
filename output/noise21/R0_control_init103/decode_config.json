@@ -1,0 +1,166 @@
+{
+  "objective": "f1",
+  "cartridge": {
+    "mode": "threshold",
+    "k_scale": 1.0,
+    "k_min": 1,
+    "k_max": 42,
+    "thr_shift": 0.0,
+    "ensure_nonempty": false,
+    "val_objective": 0.46830265848624836
+  },
+  "solvent": {
+    "mode": "threshold",
+    "k_scale": 1.0,
+    "k_min": 0,
+    "k_max": 378,
+    "thr_shift": 0.0,
+    "ensure_nonempty": false,
+    "gate_by_step": true,
+    "val_objective": 0.40201323663413546
+  },
+  "cartridge_trials": [
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 1,
+      "k_max": 42,
+      "thr_shift": -0.05,
+      "ensure_nonempty": false,
+      "objective": "f1",
+      "value": 0.42701107011029493,
+      "mean_pred_size": 8.488636363636363
+    },
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 1,
+      "k_max": 42,
+      "thr_shift": 0.0,
+      "ensure_nonempty": false,
+      "objective": "f1",
+      "value": 0.46830265848624836,
+      "mean_pred_size": 6.048076923076923
+    },
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 1,
+      "k_max": 42,
+      "thr_shift": 0.05,
+      "ensure_nonempty": false,
+      "objective": "f1",
+      "value": 0.4465903671907291,
+      "mean_pred_size": 3.9763986013986012
+    },
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 1,
+      "k_max": 42,
+      "thr_shift": 0.1,
+      "ensure_nonempty": false,
+      "objective": "f1",
+      "value": 0.3823214558796191,
+      "mean_pred_size": 2.36013986013986
+    }
+  ],
+  "solvent_trials": [
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 0,
+      "k_max": 378,
+      "thr_shift": -0.05,
+      "ensure_nonempty": false,
+      "gate_by_step": false,
+      "objective": "f1",
+      "value": 0.34707877173657237,
+      "mean_pred_size": 46.70306513409962
+    },
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 0,
+      "k_max": 378,
+      "thr_shift": -0.05,
+      "ensure_nonempty": false,
+      "gate_by_step": true,
+      "objective": "f1",
+      "value": 0.34758410546570706,
+      "mean_pred_size": 46.4588122605364
+    },
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 0,
+      "k_max": 378,
+      "thr_shift": 0.0,
+      "ensure_nonempty": false,
+      "gate_by_step": false,
+      "objective": "f1",
+      "value": 0.40181764299077843,
+      "mean_pred_size": 33.327586206896555
+    },
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 0,
+      "k_max": 378,
+      "thr_shift": 0.0,
+      "ensure_nonempty": false,
+      "gate_by_step": true,
+      "objective": "f1",
+      "value": 0.40201323663413546,
+      "mean_pred_size": 33.184865900383144
+    },
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 0,
+      "k_max": 378,
+      "thr_shift": 0.05,
+      "ensure_nonempty": false,
+      "gate_by_step": false,
+      "objective": "f1",
+      "value": 0.3918278567539636,
+      "mean_pred_size": 21.837164750957854
+    },
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 0,
+      "k_max": 378,
+      "thr_shift": 0.05,
+      "ensure_nonempty": false,
+      "gate_by_step": true,
+      "objective": "f1",
+      "value": 0.39181195516763556,
+      "mean_pred_size": 21.765325670498083
+    },
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 0,
+      "k_max": 378,
+      "thr_shift": 0.1,
+      "ensure_nonempty": false,
+      "gate_by_step": false,
+      "objective": "f1",
+      "value": 0.2338853310086524,
+      "mean_pred_size": 10.122605363984674
+    },
+    {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 0,
+      "k_max": 378,
+      "thr_shift": 0.1,
+      "ensure_nonempty": false,
+      "gate_by_step": true,
+      "objective": "f1",
+      "value": 0.233807626635832,
+      "mean_pred_size": 10.090038314176246
+    }
+  ]
+}

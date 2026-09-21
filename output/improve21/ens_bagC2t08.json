@@ -1,0 +1,202 @@
+{
+  "members": [
+    "output/improve21/s7_bagC2t08_init401",
+    "output/improve21/s7_bagC2t08_init402",
+    "output/improve21/s7_bagC2t08_init403",
+    "output/improve21/s7_bagC2t08_init404",
+    "output/improve21/s7_bagC2t08_init405",
+    "output/improve21/s7_bagC2t08_init406",
+    "output/improve21/s7_bagC2t08_init407",
+    "output/improve21/s7_bagC2t08_init408"
+  ],
+  "metrics": {
+    "cartridge": {
+      "micro_precision": 0.37750768780202076,
+      "micro_recall": 0.6876500400106693,
+      "micro_f1": 0.48742673473200593,
+      "exact_match_rate": 0.02794759825327511,
+      "hit_rate": 0.8908296943231441,
+      "jaccard": 0.3262464719026708,
+      "tp": 2578,
+      "fp": 4251,
+      "fn": 1171
+    },
+    "step": {
+      "micro_precision": 0.9149227459417171,
+      "micro_recall": 0.9921527041357369,
+      "micro_f1": 0.9519739519734526,
+      "exact_match_rate": 0.6414189837008629,
+      "hit_rate": 1.0,
+      "jaccard": 0.9084851390220519,
+      "tp": 4678,
+      "fp": 435,
+      "fn": 37
+    },
+    "solvent": {
+      "micro_precision": 0.3960182602079635,
+      "micro_recall": 0.5895790069850858,
+      "micro_f1": 0.4737920048542565,
+      "exact_match_rate": 0.0028763183125599234,
+      "hit_rate": 0.9865771812080537,
+      "jaccard": 0.320019425202709,
+      "tp": 9369,
+      "fp": 14289,
+      "fn": 6522
+    },
+    "ratio": {
+      "n": 6258,
+      "mae": 0.1485919663549571,
+      "mse": 0.056488533284756434,
+      "rmse": 0.23767316483935758,
+      "r2": 0.36170820005686377,
+      "within_0.05": 0.46756152125279643,
+      "within_0.10": 0.5883668903803132
+    },
+    "overall": {
+      "strict_end_to_end_acc": 0.0,
+      "scheme_similarity_score": 0.5098308412651731,
+      "hierarchical_consistency_acc": 0.9156331877729258,
+      "method_hit_at_1": 0.44454148471615723,
+      "global_utility_score": 61.41001921673007
+    },
+    "overall_clean": {
+      "hit_at_1_legacy": 0.44454148471615723,
+      "hit_at_1_info_only": 0.44966442953020136,
+      "hit_at_1_ratio_subset": 0.6549295774647887,
+      "hit_at_1_strict": 0.08916586768935762,
+      "chain_acc_no_ratio": 0.4966442953020134,
+      "strict_acc_info_only": 0.0,
+      "scheme_similarity_info_only": 0.4780140900941925,
+      "hierarchical_consistency_info_only": 0.9073825503355705,
+      "cartridge_top1_acc": 0.6069868995633187,
+      "step_top1_acc_given_car": 0.9984732824427481,
+      "solvent_top1_acc_given_prefix": 0.7920489296636085
+    },
+    "hit1_diagnostics": {
+      "n_samples": 1145,
+      "n_has_info": 1043,
+      "n_no_info": 102,
+      "n_ratio_subset": 142,
+      "ratio_tau": 0.1,
+      "cartridge_top1_wrong": 450,
+      "step_top1_wrong": 1,
+      "solvent_top1_wrong": 136,
+      "ratio_top1_wrong": 49,
+      "ratio_top1_not_available": 376,
+      "no_info_auto_hit": 40
+    },
+    "pred_set_size": {
+      "cartridge_pred_mean": 5.964192139737992,
+      "cartridge_true_mean": 3.274235725402832,
+      "solvent_pred_mean": 22.682646212847555,
+      "solvent_true_mean": 15.235857963562012
+    }
+  },
+  "val_metrics_tuned": {
+    "cartridge": {
+      "micro_precision": 0.38556338028169007,
+      "micro_recall": 0.6845532690804895,
+      "micro_f1": 0.4932895354289147,
+      "exact_match_rate": 0.027097902097902096,
+      "hit_rate": 0.8741258741258742,
+      "jaccard": 0.3184364123987386,
+      "tp": 2628,
+      "fp": 4188,
+      "fn": 1211
+    },
+    "step": {
+      "micro_precision": 0.9099590723055933,
+      "micro_recall": 0.993827160493827,
+      "micro_f1": 0.9500457828868748,
+      "exact_match_rate": 0.6503831417624522,
+      "hit_rate": 1.0,
+      "jaccard": 0.9051724137931034,
+      "tp": 4669,
+      "fp": 462,
+      "fn": 29
+    },
+    "solvent": {
+      "micro_precision": 0.41940273182319504,
+      "micro_recall": 0.6249288919790151,
+      "micro_f1": 0.5019418707953055,
+      "exact_match_rate": 0.0038314176245210726,
+      "hit_rate": 0.9875478927203065,
+      "jaccard": 0.33300520711776654,
+      "tp": 9887,
+      "fp": 13687,
+      "fn": 5934
+    },
+    "ratio": {
+      "n": 6052,
+      "mae": 0.14675439052675482,
+      "mse": 0.05390419915225452,
+      "rmse": 0.23217277866333624,
+      "r2": 0.3817896347356714,
+      "within_0.05": 0.45588235294117646,
+      "within_0.10": 0.5862524785194977
+    },
+    "overall": {
+      "strict_end_to_end_acc": 0.0017482517482517483,
+      "scheme_similarity_score": 0.5089153407119096,
+      "hierarchical_consistency_acc": 0.9125874125874126,
+      "method_hit_at_1": 0.4187062937062937,
+      "global_utility_score": 62.45504969151364
+    },
+    "overall_clean": {
+      "hit_at_1_legacy": 0.4187062937062937,
+      "hit_at_1_info_only": 0.421455938697318,
+      "hit_at_1_ratio_subset": 0.5639097744360902,
+      "hit_at_1_strict": 0.07183908045977011,
+      "chain_acc_no_ratio": 0.47701149425287354,
+      "strict_acc_info_only": 0.0019157088122605363,
+      "scheme_similarity_info_only": 0.4771110126907778,
+      "hierarchical_consistency_info_only": 0.9042145593869731,
+      "cartridge_top1_acc": 0.5821678321678322,
+      "step_top1_acc_given_car": 0.9856459330143541,
+      "solvent_top1_acc_given_prefix": 0.8058252427184466
+    },
+    "hit1_diagnostics": {
+      "n_samples": 1144,
+      "n_has_info": 1044,
+      "n_no_info": 100,
+      "n_ratio_subset": 133,
+      "ratio_tau": 0.1,
+      "cartridge_top1_wrong": 478,
+      "step_top1_wrong": 9,
+      "solvent_top1_wrong": 120,
+      "ratio_top1_wrong": 58,
+      "ratio_top1_not_available": 365,
+      "no_info_auto_hit": 39
+    },
+    "pred_set_size": {
+      "cartridge_pred_mean": 5.958041958041958,
+      "cartridge_true_mean": 3.355769157409668,
+      "solvent_pred_mean": 22.580459770114942,
+      "solvent_true_mean": 15.154214859008789
+    }
+  },
+  "val_select_score_tuned": 4.396821506536172,
+  "decode": {
+    "objective": "f1",
+    "cartridge": {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 1,
+      "k_max": 42,
+      "thr_shift": 0.0,
+      "ensure_nonempty": false,
+      "count_quantile": null
+    },
+    "solvent": {
+      "mode": "threshold",
+      "k_scale": 1.0,
+      "k_min": 0,
+      "k_max": 378,
+      "thr_shift": 0.0,
+      "ensure_nonempty": false,
+      "count_quantile": null,
+      "gate_by_step": true
+    }
+  },
+  "note": "同一数据划分（seed 固定）、仅初始化不同的深度集成；阈值与解码在平均后的验证集上调优，测试集未参与任何选择。"
+}

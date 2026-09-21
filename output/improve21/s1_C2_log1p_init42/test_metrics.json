@@ -1,0 +1,267 @@
+{
+  "metrics": {
+    "cartridge": {
+      "micro_precision": 0.3579881656804733,
+      "micro_recall": 0.7100560149373164,
+      "micro_f1": 0.4759946356723303,
+      "exact_match_rate": 0.013973799126637555,
+      "hit_rate": 0.903056768558952,
+      "jaccard": 0.3076288301800692,
+      "tp": 2662,
+      "fp": 4774,
+      "fn": 1087
+    },
+    "step": {
+      "micro_precision": 0.9137560975609754,
+      "micro_recall": 0.9932131495227994,
+      "micro_f1": 0.9518292682921835,
+      "exact_match_rate": 0.6404602109300096,
+      "hit_rate": 1.0,
+      "jaccard": 0.9083892617449665,
+      "tp": 4683,
+      "fp": 442,
+      "fn": 32
+    },
+    "solvent": {
+      "micro_precision": 0.3752478051543472,
+      "micro_recall": 0.5836637090176829,
+      "micro_f1": 0.4568065405826599,
+      "exact_match_rate": 0.0,
+      "hit_rate": 0.9884947267497604,
+      "jaccard": 0.29826143458260646,
+      "tp": 9275,
+      "fp": 15442,
+      "fn": 6616
+    },
+    "ratio": {
+      "n": 6258,
+      "mae": 0.15966986597859195,
+      "mse": 0.07586609810934447,
+      "rmse": 0.2754380113734204,
+      "r2": 0.14275153732937207,
+      "within_0.05": 0.5703100031959092,
+      "within_0.10": 0.6359859379993609
+    },
+    "overall": {
+      "strict_end_to_end_acc": 0.0008733624454148472,
+      "scheme_similarity_score": 0.5101493477187051,
+      "hierarchical_consistency_acc": 0.9147598253275108,
+      "method_hit_at_1": 0.4096069868995633,
+      "global_utility_score": 61.221218657569224
+    },
+    "overall_clean": {
+      "hit_at_1_legacy": 0.4096069868995633,
+      "hit_at_1_info_only": 0.42377756471716205,
+      "hit_at_1_ratio_subset": 0.640625,
+      "hit_at_1_strict": 0.07861936720997123,
+      "chain_acc_no_ratio": 0.4678811121764142,
+      "strict_acc_info_only": 0.0,
+      "scheme_similarity_info_only": 0.4784018985904422,
+      "hierarchical_consistency_info_only": 0.9064237775647173,
+      "cartridge_top1_acc": 0.5589519650655022,
+      "step_top1_acc_given_car": 0.9967373572593801,
+      "solvent_top1_acc_given_prefix": 0.7986906710310966
+    },
+    "hit1_diagnostics": {
+      "n_samples": 1145,
+      "n_has_info": 1043,
+      "n_no_info": 102,
+      "n_ratio_subset": 128,
+      "ratio_tau": 0.1,
+      "cartridge_top1_wrong": 505,
+      "step_top1_wrong": 2,
+      "solvent_top1_wrong": 123,
+      "ratio_top1_wrong": 46,
+      "ratio_top1_not_available": 360,
+      "no_info_auto_hit": 27
+    },
+    "pred_set_size": {
+      "cartridge_pred_mean": 6.494323144104803,
+      "cartridge_true_mean": 3.274235725402832,
+      "solvent_pred_mean": 23.697986577181208,
+      "solvent_true_mean": 15.235857963562012
+    }
+  },
+  "metrics_threshold_only": {
+    "cartridge": {
+      "micro_precision": 0.3579881656804733,
+      "micro_recall": 0.7100560149373164,
+      "micro_f1": 0.4759946356723303,
+      "exact_match_rate": 0.013973799126637555,
+      "hit_rate": 0.903056768558952,
+      "jaccard": 0.3076288301800692,
+      "tp": 2662,
+      "fp": 4774,
+      "fn": 1087
+    },
+    "step": {
+      "micro_precision": 0.9137560975609754,
+      "micro_recall": 0.9932131495227994,
+      "micro_f1": 0.9518292682921835,
+      "exact_match_rate": 0.6404602109300096,
+      "hit_rate": 1.0,
+      "jaccard": 0.9083892617449665,
+      "tp": 4683,
+      "fp": 442,
+      "fn": 32
+    },
+    "solvent": {
+      "micro_precision": 0.3743156199677939,
+      "micro_recall": 0.5851110691586432,
+      "micro_f1": 0.45655643121898837,
+      "exact_match_rate": 0.0,
+      "hit_rate": 0.9884947267497604,
+      "jaccard": 0.2971493974795585,
+      "tp": 9298,
+      "fp": 15542,
+      "fn": 6593
+    },
+    "ratio": {
+      "n": 6258,
+      "mae": 0.15966986597859195,
+      "mse": 0.07586609810934447,
+      "rmse": 0.2754380113734204,
+      "r2": 0.14275153732937207,
+      "within_0.05": 0.5703100031959092,
+      "within_0.10": 0.6359859379993609
+    },
+    "overall": {
+      "strict_end_to_end_acc": 0.0008733624454148472,
+      "scheme_similarity_score": 0.5075536086688176,
+      "hierarchical_consistency_acc": 0.9117903930131004,
+      "method_hit_at_1": 0.4096069868995633,
+      "global_utility_score": 61.21246482984072
+    },
+    "overall_clean": {
+      "hit_at_1_legacy": 0.4096069868995633,
+      "hit_at_1_info_only": 0.42377756471716205,
+      "hit_at_1_ratio_subset": 0.640625,
+      "hit_at_1_strict": 0.07861936720997123,
+      "chain_acc_no_ratio": 0.4678811121764142,
+      "strict_acc_info_only": 0.0,
+      "scheme_similarity_info_only": 0.47555230970058493,
+      "hierarchical_consistency_info_only": 0.9031639501438159,
+      "cartridge_top1_acc": 0.5589519650655022,
+      "step_top1_acc_given_car": 0.9967373572593801,
+      "solvent_top1_acc_given_prefix": 0.7986906710310966
+    },
+    "hit1_diagnostics": {
+      "n_samples": 1145,
+      "n_has_info": 1043,
+      "n_no_info": 102,
+      "n_ratio_subset": 128,
+      "ratio_tau": 0.1,
+      "cartridge_top1_wrong": 505,
+      "step_top1_wrong": 2,
+      "solvent_top1_wrong": 123,
+      "ratio_top1_wrong": 46,
+      "ratio_top1_not_available": 360,
+      "no_info_auto_hit": 27
+    },
+    "pred_set_size": {
+      "cartridge_pred_mean": 6.494323144104803,
+      "cartridge_true_mean": 3.274235725402832,
+      "solvent_pred_mean": 23.815915627996166,
+      "solvent_true_mean": 15.235857963562012
+    }
+  },
+  "val_metrics_tuned": {
+    "cartridge": {
+      "micro_precision": 0.3619722073757349,
+      "micro_recall": 0.7056525136754361,
+      "micro_f1": 0.47849509847168803,
+      "exact_match_rate": 0.016608391608391608,
+      "hit_rate": 0.8994755244755245,
+      "jaccard": 0.304361563149976,
+      "tp": 2709,
+      "fp": 4775,
+      "fn": 1130
+    },
+    "step": {
+      "micro_precision": 0.910278915545153,
+      "micro_recall": 0.9934014474244357,
+      "micro_f1": 0.9500254452921215,
+      "exact_match_rate": 0.6542145593869731,
+      "hit_rate": 1.0,
+      "jaccard": 0.9050766283524905,
+      "tp": 4667,
+      "fp": 460,
+      "fn": 31
+    },
+    "solvent": {
+      "micro_precision": 0.39870199661030964,
+      "micro_recall": 0.6096327665760697,
+      "micro_f1": 0.48210536838900503,
+      "exact_match_rate": 0.0,
+      "hit_rate": 0.9885057471264368,
+      "jaccard": 0.31199220135621714,
+      "tp": 9645,
+      "fp": 14546,
+      "fn": 6176
+    },
+    "ratio": {
+      "n": 6052,
+      "mae": 0.1615921061291762,
+      "mse": 0.07493680248944862,
+      "rmse": 0.27374587209572426,
+      "r2": 0.14057329916188388,
+      "within_0.05": 0.5494051553205552,
+      "within_0.10": 0.6202908129543953
+    },
+    "overall": {
+      "strict_end_to_end_acc": 0.0,
+      "scheme_similarity_score": 0.5091558403625672,
+      "hierarchical_consistency_acc": 0.9104895104895104,
+      "method_hit_at_1": 0.42045454545454547,
+      "global_utility_score": 61.88362812353327
+    },
+    "overall_clean": {
+      "hit_at_1_legacy": 0.42045454545454547,
+      "hit_at_1_info_only": 0.42337164750957856,
+      "hit_at_1_ratio_subset": 0.6637931034482759,
+      "hit_at_1_strict": 0.07375478927203065,
+      "chain_acc_no_ratio": 0.460727969348659,
+      "strict_acc_info_only": 0.0,
+      "scheme_similarity_info_only": 0.47747584906636203,
+      "hierarchical_consistency_info_only": 0.9019157088122606,
+      "cartridge_top1_acc": 0.5664335664335665,
+      "step_top1_acc_given_car": 0.9885057471264368,
+      "solvent_top1_acc_given_prefix": 0.7990033222591362
+    },
+    "hit1_diagnostics": {
+      "n_samples": 1144,
+      "n_has_info": 1044,
+      "n_no_info": 100,
+      "n_ratio_subset": 116,
+      "ratio_tau": 0.1,
+      "cartridge_top1_wrong": 496,
+      "step_top1_wrong": 7,
+      "solvent_top1_wrong": 121,
+      "ratio_top1_wrong": 39,
+      "ratio_top1_not_available": 365,
+      "no_info_auto_hit": 39
+    },
+    "pred_set_size": {
+      "cartridge_pred_mean": 6.541958041958042,
+      "cartridge_true_mean": 3.355769157409668,
+      "solvent_pred_mean": 23.171455938697317,
+      "solvent_true_mean": 15.154214859008789
+    }
+  },
+  "val_select_score_tuned": 4.318069331761232,
+  "best_epoch": 59,
+  "best_val_select_score": 4.2353613092134355,
+  "steps_enabled": {
+    "step1_clean_metrics": true,
+    "step2_cardinality_decode": false,
+    "step3_functional_groups": false,
+    "step4_solvent_decomposition": false
+  },
+  "splits": {
+    "n_total": 11441,
+    "n_train": 9152,
+    "n_val": 1144,
+    "n_test": 1145
+  },
+  "note": "v6：metrics.overall 为旧口径（可与历史 test_metrics.json 直接对比）；metrics.overall_clean 为修正口径，建议以 hit_at_1_ratio_subset 为主指标。metrics_threshold_only 是关掉基数解码的对照。"
+}

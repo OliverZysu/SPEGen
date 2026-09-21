@@ -1,0 +1,30 @@
+{
+  "model": "RandomForest",
+  "task": "Step",
+  "splits": {
+    "n_total": 11441,
+    "n_train": 9152,
+    "n_val": 1144,
+    "n_test": 1145
+  },
+  "threshold": 0.5,
+  "metrics": {
+    "micro_precision": 0.9231840796019899,
+    "micro_recall": 0.9838812301166489,
+    "micro_f1": 0.9525667351124366,
+    "exact_match_rate": 0.6500479386385427,
+    "hit_rate": 1.0,
+    "jaccard": 0.9099712368168744,
+    "tp": 4639,
+    "fp": 386,
+    "fn": 76,
+    "overall": {
+      "strict_end_to_end_acc": 0.05851528384279476,
+      "scheme_similarity_score": 0.5178787648102182,
+      "hierarchical_consistency_acc": 0.8199126637554585,
+      "method_hit_at_1": 0.43842794759825326,
+      "global_utility_score": 56.974685576243324
+    }
+  },
+  "n_eval_samples": 1043
+}

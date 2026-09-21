@@ -1,0 +1,10 @@
+{
+  "model": "LightGBM",
+  "overall": {
+    "strict_end_to_end_acc": 0.032314410480349345,
+    "scheme_similarity_score": 0.501902440858391,
+    "hierarchical_consistency_acc": 0.8398253275109171,
+    "method_hit_at_1": 0.3737991266375546,
+    "global_utility_score": 56.19784103402024
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "model": "SVM",
+  "overall": {
+    "strict_end_to_end_acc": 0.0026200873362445414,
+    "scheme_similarity_score": 0.3063314572551849,
+    "hierarchical_consistency_acc": 0.9126637554585153,
+    "method_hit_at_1": 0.27161572052401745,
+    "global_utility_score": 31.049128679642692
+  }
+}

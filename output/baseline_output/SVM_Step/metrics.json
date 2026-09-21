@@ -1,0 +1,30 @@
+{
+  "model": "SVM",
+  "task": "Step",
+  "splits": {
+    "n_total": 11441,
+    "n_train": 9152,
+    "n_val": 1144,
+    "n_test": 1145
+  },
+  "threshold": 0.5,
+  "metrics": {
+    "micro_precision": 0.9042594013814274,
+    "micro_recall": 0.9995758218451748,
+    "micro_f1": 0.949531580537428,
+    "exact_match_rate": 0.6318312559923298,
+    "hit_rate": 1.0,
+    "jaccard": 0.9039309683604985,
+    "tp": 4713,
+    "fp": 499,
+    "fn": 2,
+    "overall": {
+      "strict_end_to_end_acc": 0.0026200873362445414,
+      "scheme_similarity_score": 0.3063314572551849,
+      "hierarchical_consistency_acc": 0.9126637554585153,
+      "method_hit_at_1": 0.27161572052401745,
+      "global_utility_score": 31.049128679642692
+    }
+  },
+  "n_eval_samples": 1043
+}

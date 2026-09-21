@@ -1,0 +1,31 @@
+{
+  "model": "MLP",
+  "task": "Solvent",
+  "splits": {
+    "n_total": 11441,
+    "n_train": 9152,
+    "n_val": 1144,
+    "n_test": 1145
+  },
+  "threshold": 0.5,
+  "metrics": {
+    "micro_precision": 0.549729873350456,
+    "micro_recall": 0.39059845195393617,
+    "micro_f1": 0.45669928629191364,
+    "exact_match_rate": 0.02588686481303931,
+    "hit_rate": 0.9683604985618408,
+    "jaccard": 0.35204004180101534,
+    "tp": 6207,
+    "fp": 5084,
+    "fn": 9684,
+    "overall": {
+      "strict_end_to_end_acc": 0.02096069868995633,
+      "scheme_similarity_score": 0.500689038458946,
+      "hierarchical_consistency_acc": 0.8459388646288208,
+      "method_hit_at_1": 0.3851528384279476,
+      "global_utility_score": 57.385423971474815
+    }
+  },
+  "n_eval_samples": 1043,
+  "n_labels": 1890
+}
