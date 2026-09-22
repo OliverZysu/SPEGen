@@ -1,6 +1,22 @@
-# Not part of the public paper repo
+# Local archive and paper source, not for GitHub
 backup/
 overleaf/
+
+# Raw extraction dump (~95 MB). Training and figures use the processed CSVs.
+data/merged_extracted_content_classified_v2.json
+
+# Regenerable dataset caches (~30 MB each)
+data/cache/*.pkl
+
+# Trained weights (~1 GB). Metrics JSON in the same run dirs are kept.
+**/*.pt
+
+# Per-sample prediction dumps; not used by paper tables or figures
+**/*.jsonl
+**/*.npz
+
+# Training logs
+**/*.log
 
 # Python / macOS local files
 __pycache__/
